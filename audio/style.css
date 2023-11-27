@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+    
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    width: 100%;
+    height: 600px;
+    background: #350322;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3b0341, #44022691), url(/img/maxresdefault.jpg); 
+    background: linear-gradient(to right, #420435, #440226ef), url(/img/maxresdefault.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.title {
+ 
+    margin-top: 80px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 15px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #043a10;
+    color: #fff;
+    text-decoration: none;
+    background: #270314;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    background: #222;
+}
+
+.container .heading{
+    font-size: 2rem;
+    padding: 2rem 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 .5rem 1rem rgb(253, 238, 238);
+    color: #fff;
+}
+
+.container .music-container{
+display: flex;
+align-items: center;
+flex-flow: column;
+}
+.container .music-container .box{
+    height: 16rem;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem #000;
+    overflow: hidden;
+    margin: 2rem;
+   
+}
+.container .music-container .box .image
+{
+height: 100%;
+width: 30%;
+object-fit: cover;
+
+}
+.container .music-container .box .image img
+{
+height: 100%;
+width: 100%;
+}
+.container .music-container .box .music{
+    width: 100%;
+}
+.container .music-container .box .music audio{
+    width: 100%;
+    outline: none;
+}
+.container .music-container .box .music audio::-webkit-media-controls-enclosure{
+    background: none;
+}
+
+@media (max-width:600px){
+    .container .music-container .box{
+
+    
+    height:27rem;
+    width: 90%;
+    flex-flow: column;
+
+}
+.container .music-container .box .image{
+    height: 80%;
+    
+    width: 100%;
+}
+
+.container .music-container .box .music{
+    height: 20%;
+    width: 100;
+}
+}
+
+
+
+.about {
+    background: #171717;
+}
+
+
+
+
+
+
+
+
+
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+
+
